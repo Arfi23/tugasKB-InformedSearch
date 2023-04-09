@@ -1,0 +1,17 @@
+Bangkalan, 140
+Bojonegoro, 60
+Gresik, 12
+Jombang, 36
+Lamongan, 36
+Madiun, 126
+Magetan, 162
+Nganjuk, 70
+Ngawi, 130
+Pamekasan, 104
+Ponorogo, 128
+Probolinggo, 70
+Sampang, 90
+Sidoarjo, 22
+Situbondo, 146
+Sumenep, 150
+Surabaya, 0
