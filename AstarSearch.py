@@ -1,6 +1,4 @@
 import heapq
-import time
-from datetime import datetime
 
 # print("hello dunia")
 
@@ -81,7 +79,7 @@ def Astar(start,goal):
     jarak[start] = 0
     jalan[start] = None
     expList = []
-    str_time = time.time() #catat waktu mulai eksekusi code
+    
     
     while(q.isEmpty() == False):
         curr = q.pop()
@@ -95,8 +93,7 @@ def Astar(start,goal):
                 f_cost = g_cost + heuristic(ttg.kota, h)
                 q.push(ttg.kota, f_cost)
                 jalan[ttg.kota] = curr
-    end_time = time.time()
-    print("Lama eksekusi : ", end_time - str_time)
+    
     res = []
     i = goal
     while(jalan.get(i) != None):
